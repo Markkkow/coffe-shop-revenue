@@ -1,10 +1,10 @@
-# ☕ Coffee Shop Revenue Intelligence & Demand Forecasting
+# Coffee Shop Revenue Intelligence & Demand Forecasting
 
 > End-to-end business analytics on **real 2024–2025 POS transaction data** from a coffee shop — covering revenue trends, product performance, demand patterns, and 90-day revenue forecasting using Facebook Prophet + Random Forest.
 
 ---
 
-## 📌 What Makes This Project Unique
+## What Makes This Project Unique
 
 Most public coffee datasets are either synthetic or over 5 years old. This project uses **actual Point-of-Sale (POS) transaction data from March 2024 to March 2025**, making the insights genuinely relevant to today's consumer behavior.
 
@@ -15,21 +15,21 @@ The analysis goes beyond basic EDA by combining:
 
 ---
 
-## 📊 Key Findings
+## Key Findings
 
 | Metric | Value |
 |---|---|
-| 📅 Data Period | Mar 2024 – Mar 2025 |
-| 🧾 Total Transactions | 3,547 |
-| 💰 Total Revenue | $112,245+ |
-| ☕ Top Product | Americano with Milk |
-| ⏰ Peak Hours | Morning & Afternoon |
-| 🏆 Best Day | Tuesday |
-| 🔮 Forecast Horizon | 90 days |
+| Data Period | Mar 2024 – Mar 2025 |
+| Total Transactions | 3,547 |
+| Total Revenue | $112,245+ |
+| Top Product | Americano with Milk |
+| Peak Hours | Morning & Afternoon |
+| Best Day | Tuesday |
+| Forecast Horizon | 90 days |
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 coffee-shop-analysis/
@@ -59,7 +59,7 @@ coffee-shop-analysis/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 ```bash
@@ -81,7 +81,7 @@ Go to **Kernel → Restart & Run All**
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 ```
 pandas>=1.3.0
@@ -95,20 +95,20 @@ jupyter>=1.0.0
 
 ---
 
-## 📈 Analysis Highlights
+## Analysis Highlights
 
-### ⏰ Demand Forecasting (Prophet)
+### Demand Forecasting (Prophet)
 Used Facebook Prophet to forecast daily revenue for the next 90 days, capturing weekly and yearly seasonality patterns from 12+ months of historical data.
 
-### 🤖 Revenue Prediction (Random Forest)
+### Revenue Prediction (Random Forest)
 Built a lag-feature-based Random Forest model using previous day/week revenue as predictors — enabling short-term daily revenue estimation.
 
-### 🔥 Revenue Heatmap
+### Revenue Heatmap
 Mapped revenue by Day of Week × Hour of Day to pinpoint the exact windows of peak customer activity — directly actionable for staffing decisions.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3.9-blue?logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-1.3-lightblue?logo=pandas)
@@ -118,11 +118,11 @@ Mapped revenue by Day of Week × Hour of Day to pinpoint the exact windows of pe
 
 ---
 
-## 👤 Author
+## Author
 
-**[Your Name]**
-📧 email@example.com
-🔗 [LinkedIn](https://linkedin.com/in/username) | [GitHub](https://github.com/username)
+**[Marko Hasbi Rahman]**
+📧 markohasbi@gmail.com
+🔗 [LinkedIn](https://www.linkedin.com/in/markohassbii) | [GitHub](https://github.com/Markkkow)
 
 ---
 
